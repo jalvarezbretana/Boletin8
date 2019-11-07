@@ -20,13 +20,13 @@ public class Calcular8_1 {
         if (respuesta < 500) {
             fin = respuesta + respuesta * 50 / 100;
         }
-        if (respuesta > 500 && respuesta < 1000) {
+        else if (respuesta >= 500 && respuesta < 1000) {
             fin = respuesta + respuesta * 7 / 100;
         }
-        if (respuesta > 1000 && respuesta < 5000) {
+        else if (respuesta >= 1000 && respuesta < 5000) {
             fin = respuesta + respuesta * 15 / 100;
         }
-        if (respuesta > 5000) {
+        else {
             fin = respuesta - respuesta * 3 / 100;
         }
         System.out.println("A cantidade é " + respuesta + ".");
