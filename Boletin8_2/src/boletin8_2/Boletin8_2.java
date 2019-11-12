@@ -16,11 +16,9 @@ public class Boletin8_2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Calculo8_2 obx=new Calculo8_2();
+        Calculo8_2 obx = new Calculo8_2();
         obx.calculo();
-        
-        
-        
+
     }
-    
+
 }
